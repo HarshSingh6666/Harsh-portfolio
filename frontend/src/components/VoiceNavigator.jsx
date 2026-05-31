@@ -29,8 +29,12 @@ const VoiceNavigator = () => {
         window.scrollTo({ top: 0, behavior: 'smooth' });
       } else if (command.includes('about')) {
         document.getElementById('about')?.scrollIntoView({ behavior: 'smooth' });
+      } else if (command.includes('service')) { // Added Services
+        document.getElementById('services')?.scrollIntoView({ behavior: 'smooth' });
       } else if (command.includes('skill')) {
         document.getElementById('skills')?.scrollIntoView({ behavior: 'smooth' });
+      } else if (command.includes('demo') || command.includes('ai') || command.includes('playground') || command.includes('explain')) { // Added AI Demo
+        document.getElementById('ai-playground')?.scrollIntoView({ behavior: 'smooth' });
       } else if (command.includes('project') || command.includes('work')) {
         document.getElementById('projects')?.scrollIntoView({ behavior: 'smooth' });
       } else if (command.includes('education')) {
@@ -73,7 +77,7 @@ const VoiceNavigator = () => {
           <motion.div 
             initial={{ opacity: 0, x: -20 }}
             animate={{ opacity: 1, x: 0 }}
-            exit={{ opacity: 0, opacity: 0 }}
+            exit={{ opacity: 0 }}
             className="bg-black/60 border border-cyan-500/30 text-cyan-400 px-4 py-2 rounded-lg text-sm backdrop-blur-md"
           >
             {transcript}
