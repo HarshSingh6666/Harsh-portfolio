@@ -108,7 +108,7 @@ const About = () => {
             {/* Social Icons */}
             <div className="flex gap-3 ml-0 sm:ml-4 mt-4 sm:mt-0">
               <a 
-                href="https://github.com/your-username" 
+                href="https://github.com/HarshSingh6666" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="p-3 bg-white/5 border border-white/10 hover:border-white/30 rounded-full text-gray-400 hover:text-white transition-all hover:bg-white/10 hover:-translate-y-1"
@@ -116,7 +116,7 @@ const About = () => {
                 <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.03c3.15-.38 6.5-1.4 6.5-7.17A5.05 5.05 0 0 0 19 5.32a5.5 5.5 0 0 0-.5-4.03s-1.4-.4-4.5 1.7a13.4 13.4 0 0 0-8 0c-3.1-2.1-4.5-1.7-4.5-1.7a5.5 5.5 0 0 0-.5 4.03 5.05 5.05 0 0 0-1.5 3.78c0 5.76 3.35 6.79 6.5 7.17A4.8 4.8 0 0 0 8 18v4"></path><path d="M3 19c-3.4 1-3.4-3-7-3"></path></svg>
               </a>
               <a 
-                href="https://linkedin.com/in/your-username" 
+                href="https://www.linkedin.com/in/harshkumarsingh666/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BRC8Lj5pBQcWDtydOB3ZCsA%3D%3D" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="p-3 bg-white/5 border border-white/10 hover:border-cyan-500/50 rounded-full text-gray-400 hover:text-cyan-400 transition-all hover:bg-cyan-500/10 hover:-translate-y-1"
