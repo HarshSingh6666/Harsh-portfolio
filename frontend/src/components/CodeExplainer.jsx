@@ -17,7 +17,7 @@ const CodeExplainer = () => {
     setExplanation('');
 
     try {
-      const response = await fetch('http://localhost:5000/api/explain-code', {
+      const response = await fetch('https://harsh-portfolio-xq0e.onrender.com/api/explain-code', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ code: code }),
