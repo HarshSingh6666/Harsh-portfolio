@@ -4,13 +4,13 @@ import { motion } from 'framer-motion';
 const projectsList = [
   {
     num: "01",
-    title: "DevBot-Chatbot",
+    title: "ChatAI",
     subtitle: "Real-Time Chat with AI system",
     category: "Major Project", // 🚀 Category Added
     description: "This is a fully function chatbot by using a using a API of gemini. During completing this i learn fetching API and take their info.",
     tech: ["React.js", "Express", "Node.js", "MERN", "Database", "Render", "Netlify"],
-    liveLink: "https://dev-bot66.netlify.app/",
-    githubLink: "https://github.com/HarshSingh6666/Devbot",
+    liveLink: "https://chatai-system.onrender.com",
+    githubLink: "https://github.com/HarshSingh6666/AI_Chatbot-System",
     mockupColor: "from-purple-900/40 via-black to-black",
     image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fit=crop&q=80&w=600",
   },
@@ -33,7 +33,7 @@ const projectsList = [
     category: "Mini Project", // 🚀 Category Added
     description: "A Weather Widget built using React.js and OpenWeatherMap API. It provides real-time weather updates by city name with details like temperature, humidity, and conditions in a clean, responsive UI.",
     tech: ["React"],
-    liveLink: "https://harshsingh6666.github.io/Weather-app/",
+    liveLink: "https://weather-app-143.netlify.app/",
     githubLink: "https://github.com/HarshSingh6666/Weather-app",
     mockupColor: "from-emerald-900/40 via-black to-black",
     image: " https://t3.ftcdn.net/jpg/04/91/54/18/360_F_491541875_c0vIhFwHnRZvmRfJELvJxtSQbRDOwbGC.jpg", 
