@@ -22,7 +22,7 @@ const Contact = () => {
     setStatus({ loading: true, message: "Sending...", error: false });
 
     try {
-      const response = await fetch('http://localhost:5000/api/contact', {
+      const response = await fetch('https://harsh-portfolio-xq0e.onrender.com/api/contact', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(formData),
