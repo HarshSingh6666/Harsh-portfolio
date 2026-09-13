@@ -76,7 +76,7 @@ const About = () => {
             Hi, I'm <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-cyan-400">Harsh</span>
           </h3>
           <p className="text-gray-400 text-lg md:text-xl leading-relaxed mb-8 max-w-2xl mx-auto md:mx-0">
-            I am a pre-final year B.Tech Computer Science student specializing in building scalable web applications. I have a strong focus on integrating Artificial Intelligence to solve real-world problems. From crafting seamless user experiences with the MERN stack to exploring deception technology in cybersecurity, I enjoy turning complex ideas into functional digital products.
+            I am a final year B.Tech Computer Science student specializing in building scalable web applications. I have a strong focus on integrating Artificial Intelligence to solve real-world problems. From crafting seamless user experiences with the MERN stack to exploring deception technology in cybersecurity, I enjoy turning complex ideas into functional digital products.
           </p>
 
           {/* BUTTONS SECTION */}
@@ -96,7 +96,7 @@ const About = () => {
 
             {/* Resume */}
             <a 
-              href="https://drive.google.com/file/d/1lc7V88jds5ZLPfNGLYWBKnZ8-Q-Xq38G/view?usp=drive_link" 
+              href="https://drive.google.com/file/d/1aPP3mHR3M2awBlu9WC67zrDUZ4p73R9x/view?usp=sharing" 
               target="_blank" 
               rel="noopener noreferrer"
               className="flex items-center gap-2 border border-purple-500/50 hover:border-purple-400 bg-purple-500/10 hover:bg-purple-500/20 text-purple-300 px-6 py-3 rounded-full font-semibold transition-all hover:-translate-y-1"
